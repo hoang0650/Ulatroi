@@ -36,5 +36,8 @@
         "eslint-config-next": "12.2.2",
         "postcss": "^8.4.14",
         "tailwindcss": "^3.1.5"
+    },
+    "resolutions": {
+        "terser": "5.15.0"
     }
 }
