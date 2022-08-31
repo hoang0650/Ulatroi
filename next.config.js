@@ -2,11 +2,6 @@
 const nextConfig = {
   reactStrictMode: true,
   exportTrailingSlash: true,
-  exportPathMap: function(){
-    return {
-      '/': {page: '/'}
-    }
-  },
   swcMinify: true,
   future: { webpack5: true },
   images: {
