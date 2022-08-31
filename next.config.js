@@ -3,6 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   exportTrailingSlash: true,
   swcMinify: true,
+  future: { webpack5: true },
   images: {
     domains: ['cdn.ulatroi.net','i.pinimg.com'],
   },
